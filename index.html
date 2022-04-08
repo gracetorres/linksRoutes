@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="funcionesIniciales()">
+    <div class="flex-row ">
+        <div class="w20 flex-row align-center bb ">
+            <label class="ordico" for="">órdico</label>
+        </div>
+        <div class="flex-row w80 justify-center align-center bb">
+            <a class="font blue active" href="./index.html">Inicio</a>
+            <a class="font blue" href="./servicios.html">Servicios</a>
+            <a class="font blue" href="./acerca.html">Acerca de</a>
+            <a class="font blue" href="./confianza.html">Confianza</a>
+            <a class="font blue" href="./competencias.html">Competencias</a>
+            <a class="font blue" href="./contacto.html">Contacto</a>
+        </div>
+    </div>
+
+    <div>
+        <div>
+            PAGINA DE INICIO
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    
+    <div class="flex-row ">
+        <div class="w20 flex-row align-center bb ">
+            <label class="ordico" for="">órdico</label>
+        </div>
+        <div class="flex-row w80 justify-center align-center bb" id="link-2">
+            <a id="inicio" class="font blue active"  onclick="navegarA('inicio')" href="javascript:void(0)">Paso 1</a>
+            <a id="servicios" class="font blue" onclick="navegarA('servicios')" href="javascript:void(0)">Paso 2</a>
+            <a id="acercaDe" class="font blue" onclick="navegarA('acercaDe')" href="javascript:void(0)">Acerca de</a>
+            <a id="confianza" class="font blue" onclick="navegarA('confianza')" href="javascript:void(0)">Confianza</a>
+            <a id="competencias" class="font blue" onclick="navegarA('competencias')" href="javascript:void(0)">Competencias</a>
+            <a id="contacto" class="font blue" onclick="navegarA('contacto')" href="javascript:void(0)">Contacto</a>
+        </div>
+    </div>
+
+    <div>
+        <div id="dynamicTemplate">
+            PAGINA DE INICIO 2
+        </div>
+    </div>
+
+
+    <div class="flex-row ">
+        <div class="w20 flex-row align-center bb ">
+            <label class="ordico" for="">órdico</label>
+        </div>
+        <div class="flex-row w80 justify-center align-center bb" id="links">
+        </div>
+    </div>
+
+    <div>
+        <div id="dynamicTemplateDos">
+            PAGINA DE INICIO 2
+        </div>
+    </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+    <div class="flex-row ">
+        <div class="w20 flex-row align-center bb ">
+            <label class="ordico" for="">Pasos</label>
+        </div>
+        <div class="flex-row w80 justify-center align-center bb" id="link-3">
+
+            <div class="flex-column">
+                <div class="flew-row mb-2" id="pasos-julio">
+                    <a id="paso1" class="font blue"  onclick="navegarTres('paso1')" href="javascript:void(0)">Paso 1</a>    
+                    <a id="paso2" class="font blue"  onclick="navegarTres('paso2')" href="javascript:void(0)">Paso 2</a>    
+                    <a id="paso3" class="font blue"  onclick="navegarTres('paso3')" href="javascript:void(0)">Paso 3</a>    
+                </div>
+                <div>
+
+
+                    <div id="conten-1" class="flex-column d-none">
+                        <input type="text" placeholder="input 1" class="mb-10">
+                        <button onclick="nextPasoDos()"> Ir paso 2 </button>
+                    </div>
+        
+                    <div id="conten-2" class="flex-column d-none">
+                        <input type="text" placeholder="input 2" class="mb-10">
+                        <div class="flex-row">
+                            <button onclick="volverPaso1()"> Back </button>
+                            <button onclick="nextPasoTres()"> Ir al paso 3 </button>
+                        </div>
+                        
+                    </div>
+        
+                    <div id="conten-3" class="flex-column d-none">
+                        <input type="text" placeholder="input 3" class="mb-10">
+                        <div class="flex-row">
+                            <button onclick="volverPaso2()"> Volver al paso 2 </button>
+                            <button onclick="volverPaso1()"> Reset </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+
+
+        </div>
+    </div>
+
+
+    <script src="js.js"></script>
+</body>
+</html>

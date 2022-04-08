@@ -1,0 +1,91 @@
+.flex-row{
+    display:flex;
+    flex-direction: row;
+}
+.flex-column{
+    display:flex;
+    flex-direction: column;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.ordico{
+    margin: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(22, 22, 63);
+    
+}
+.d-none{
+    display: none;
+}
+.d-block{
+    display: block;
+}
+.blue{
+    color: rgb(22, 22, 63);
+}
+.active{
+    color: plum;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.mb-2{
+    margin-bottom: 2rem;
+}
+
+.mr-15{
+    margin-right: 15px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.bb{
+    border-bottom: 1px solid rgb(223, 219, 219)
+}
+.w20{
+    width: 20%;
+}
+.w30{
+    width: 30%;
+}
+.w70{
+    width: 70%;
+}
+.w80{
+    width: 80%;
+}
+.w100{
+    width: 100%;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.bk-cel{
+    background-color: skyblue;
+}
+.bk-tomato{
+    background-color: tomato;
+}
+body{
+    margin: 0;
+}
+
+.font{
+    font-size: 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin: 12px;
+}
